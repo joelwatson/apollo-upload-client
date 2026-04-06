@@ -13,7 +13,7 @@ import {
 } from "@apollo/client/link/http";
 import { filterOperationVariables } from "@apollo/client/link/utils";
 import extractFiles from "extract-files/extractFiles.mjs";
-import { Observable } from "rxjs/internal/Observable";
+import { Observable } from "rxjs";
 
 import formDataAppendFile from "./formDataAppendFile.mjs";
 import isExtractableFile from "./isExtractableFile.mjs";
